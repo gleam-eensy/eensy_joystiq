@@ -1,14 +1,11 @@
 import actors/ui
 import eensy.{Up, get_system_platform}
-
-import gleam/option.{None, Some}
-import gleam/result
-
 import eensy/gpio.{type Level, High, Low}
 import eensy/store
 import gleam/erlang/process
-
 import gleam/list
+import gleam/option.{None, Some}
+import gleam/result
 
 // Model -----------------------------------------------------------------------
 
